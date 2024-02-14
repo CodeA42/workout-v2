@@ -1,6 +1,6 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  // "extends": "@react-native/typescript-config/tsconfig.json",
+  // "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
     "strict": true,
     "experimentalDecorators": true,
@@ -11,16 +11,16 @@
     "alwaysStrict": true,
     "strictPropertyInitialization": true,
     "exactOptionalPropertyTypes": true,
-    "isolatedModules": false,
-    "allowJs": true,
-    "esModuleInterop": true,
-    "jsx": "react-native",
-    "lib": ["DOM", "ESNext"],
-    "moduleResolution": "node",
-    "noEmit": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "target": "ESNext"
+    "isolatedModules": false
+    // "allowJs": true,
+    // "esModuleInterop": true,
+    // "jsx": "react-native",
+    // "lib": ["DOM", "ESNext"],
+    // "moduleResolution": "node",
+    // "noEmit": true,
+    // "resolveJsonModule": true,
+    // "skipLibCheck": true,
+    // "target": "ESNext"
   },
   "exclude": [
     "node_modules",

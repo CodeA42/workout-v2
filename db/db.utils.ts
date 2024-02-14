@@ -4,7 +4,7 @@ import { ActivityEntity } from './activity/activity.entity';
 
 const dataSource = new DataSource({
   database: 'workout-db',
-  driver: require('sqlite'),
+  driver: 'sqlite',
   entities: [WorkoutEntity, ActivityEntity],
   // synchronize: true,
   type: 'expo',
